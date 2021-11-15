@@ -91,7 +91,6 @@ const ContactForm = () => {
             required
           />
           <TextField
-            style={{ width: '400px' }}
             label='Description'
             name='desc'
             className='my-4'

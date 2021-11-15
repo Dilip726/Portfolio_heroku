@@ -49,7 +49,7 @@ export const Main = () => {
 
   return (
     <>
-      <div>
+      <div style={{ width: '100%' }}>
         <div className='head' style={style}>
           <div className='headtitle'>
             <h1>
@@ -287,24 +287,26 @@ export const Main = () => {
             /> */}
           </div>
           <section
-            className='contact '
+            className='contact container'
             id='contact'
             style={{ position: 'absolute', top: '-10px' }}
           >
             <div className='max-width'>
               <h2 className='title'>Contact Me</h2>
               <div className='details d-flex'>
-                <div className='contact-content '>
-                  <div className='column left '>
+                <div className='contact-content'>
+                  <div className='column left'>
                     <div className='text fas fa-paint '>
                       Let's Connect and Grow
                     </div>
+                    <div className="d-flex flex-wrap" style={{wordWrap:'normal'}}>
                     <p>
-                      Feel free to get in touch with me.I am always open to
-                      discussing new project , creative ideas or opportunity to
-                      be part of your vision !
+                    Feel free to get in touch with me.I am always open to
+                    discussing new project , creative ideas or opportunity to
+                    be part of your vision !
                     </p>
-                    <div className='icons '>
+                    </div>
+                    <div className='icons d-flex flex-wrap'>
                       <i>
                         <a href='https://www.linkedin.com/in/dilip-suthar-a741520/ '>
                           LinkedIn
