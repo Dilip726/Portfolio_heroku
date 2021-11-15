@@ -1,5 +1,4 @@
-const mongoose = require("mongoose");
-require('dotenv').config();
+const mongoose = require('mongoose');
 
 module.exports = async () => {
   try {
@@ -7,8 +6,8 @@ module.exports = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("DB Connected")
+    console.log('DB Connected');
   } catch (error) {
-      console.log("DB not Connected")
+    console.log('DB not Connected');
   }
 };
