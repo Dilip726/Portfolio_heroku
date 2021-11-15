@@ -1,22 +1,16 @@
 import React from 'react';
-import {
-	BrowserRouter as Router,
-	Route,
-	Switch
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import './App.css'
-import {Main } from './Pages/index'
-
+import './App.css';
+import { Main } from './Pages/index';
 
 function App() {
   return (
     <>
-    <Router>
-      <Nav/>
-      <Route exact path='/' component={Main}/>
-    </Router>
-    
+      <Router>
+        <Nav />
+        <Route exact path='/' component={Main} />
+      </Router>
     </>
   );
 }
